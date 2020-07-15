@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>知乎小站</title>
+    <link rel="stylesheet" href="/static/plugins/bootstrap-4.4.1-dist/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+         <link rel="icon" href="/static/image/lagelanren.jpg" type="image/x-icon">
+  <link rel="shortcut icon" href="/static/image/lagelanren.jpg" type="image/x-icon">
+    <script src="/static/js/jquery3.5.js"></script>
+    <script src="/static/js/popper.min.js"></script>
+    <script src="/static/js/eacharts.min.js"></script>
+    <script src="/static/plugins/bootstrap-4.4.1-dist/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+
+    <style>
+        /*        body {*/
+        /*            width: 100%;*/
+        /*            height: auto;*/
+        /*       background:url(/static/image/1.jpg) no-repeat center fixed;*/
+        /*       background-size:contain;*/
+        /*}*/
+        html, body {
+            height: 98%;
+
+        }
+
+        body {
+            background: url(/static/image/1.jpg) center fixed;
+            background-size: contain;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container-fluid  h-100">
+    <div class="h-25"></div>
+    <h2 class="text-center">Hello Stranger</h2>
+    <div class="row">
+        <div class="col-xm-12 col-sm-8 offset-sm-2 mt-3">
+            <div class="card">
+                <div class="card-body">
+                    <form action="/zhihu/detail?offset=0&limit=20" method="get">
+                        <div class="d-flex justify-content-center m-2">
+                            <div class="form-check form-check-inline">
+                                <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" value="0" name="isBoy">只看男
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" value="0" name="isGirl">只看女
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline disabled">
+                                <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" value="1" name="isPicture">有图
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline disabled">
+                                <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" value="1" name="isQuality">高质量
+                                </label>
+                            </div>
+                        </div>
+                        <div class="m-2">
+                            <input type="text" class="form-control" name="keys" value=""
+                                   placeholder="多个关键词空格隔开，例如：北京 程序员">
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">确定</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex flex-row-reverse">
+        <div class="col-sm-12 mt-5">
+            <h3 class="blockquote text-center mt-3">
+                <p class="text-center">真实总是没有错，但是我们的面具只要不狰狞，是不是已经足够。</p>
+                <footer class="blockquote-footer">韩寒 <cite title="Source Title">《1988我想和这个世界谈谈》</cite></footer>
+            </h3>
+        </div>
+    </div>
+</div>
+    <div style="margin-top: 20px;margin-bottom: 20px;font-size: 12px;width: 100%;text-align: center;color: #999;">
+        <a href="http://www.beian.gov.cn" target="_blank">
+        版权所有© 2019 京ICP备20018565号
+        </a>
+    </div>
+</body>
+<script>
+</script>
+</html>
