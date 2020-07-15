@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bfd78e9-58e2-4831-adbb-1e8347b78a4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/image/Screenshot_2020-07-15-18-36-59-462_百度.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/image/Screenshot_2020-07-15-18-37-24-696_百度.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,17 +40,19 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/two/government1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/views" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\PythonProjects\Fivetwozero\spider" />
-      <recent name="D:\PythonProjects\Fivetwozero\templates" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PythonProjects\Fivetwozero\views" />
       <recent name="D:\PythonProjects\Fivetwozero\static\js" />
       <recent name="D:\PythonProjects\Fivetwozero\static\css" />
       <recent name="D:\PythonProjects\Fivetwozero" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PythonProjects\Fivetwozero\static\image" />
+      <recent name="D:\PythonProjects\Fivetwozero\spider" />
+      <recent name="D:\PythonProjects\Fivetwozero\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -229,7 +230,7 @@
       <workItem from="1592584521519" duration="816000" />
       <workItem from="1592639066353" duration="991000" />
       <workItem from="1592640887134" duration="1769000" />
-      <workItem from="1594806139161" duration="2847000" />
+      <workItem from="1594806139161" duration="3470000" />
     </task>
     <servers />
   </component>
