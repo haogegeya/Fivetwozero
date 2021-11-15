@@ -9,7 +9,7 @@ from .globalValue import QUESTION
 
 class SpiderPipeline:
     def __init__(self):
-        myclient = pymongo.MongoClient("mongodb://two:yuanfang@47.107.97.170:27017")
+        myclient = pymongo.MongoClient("mongodb://****:****@47.107.97.170:27017")
         mydb = myclient["zhihu"]
         self.mycol = mydb["content"]
     def process_item(self, item, spider):
